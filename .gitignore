@@ -1,0 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.secret
+
+node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# local env files
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+#Hardhat files
+cache
+artifacts
+
+#vscode
+node_modules
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+config.bat
